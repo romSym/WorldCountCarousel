@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "world-count-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/worldCount/WorldCountWebPart.js",
+          "manifest": "./src/webparts/worldCount/WorldCountWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WorldCountWebPartStrings": "lib/webparts/worldCount/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

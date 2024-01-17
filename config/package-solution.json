@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "world-count-slider-client-side-solution",
+    "id": "caa62860-f309-4ae5-9072-3b5cd1095c64",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "world-count-slider description"
+      },
+      "longDescription": {
+        "default": "world-count-slider description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "world-count-slider Feature",
+        "description": "The feature that activates elements of the world-count-slider solution.",
+        "id": "682a45b7-559b-4c78-915e-d408e9b10f48",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/world-count-slider.sppkg"
+  }
+}
